@@ -18,22 +18,16 @@ class RowCrossAxisBaselinePage extends StatelessWidget {
           textBaseline: TextBaseline.alphabetic,
           children: [
             Container(
-              width: 90,
-              height: 90,
               color: Colors.red,
               child: const Text('Red', style: TextStyle(color: Colors.white, fontSize: 24)),
             ),
             Container(
-              width: 80,
-              height: 80,
               color: Colors.green,
-              child: const Text('Green', style: TextStyle(color: Colors.white, fontSize: 16)),
+              child: const Text('Green', style: TextStyle(color: Colors.white, fontSize: 24)),
             ),
             Container(
-              width: 70,
-              height: 70,
               color: Colors.blue,
-              child: const Text('Blue', style: TextStyle(color: Colors.white, fontSize: 12)),
+              child: const Text('Blue', style: TextStyle(color: Colors.white, fontSize: 24)),
             ),
           ],
         ),
